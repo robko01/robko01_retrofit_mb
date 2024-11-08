@@ -15,8 +15,8 @@
 | Motor 4 Step | GPIO13 | OUTPUT | ```#define M4_STP 13```|
 | Motor 5 Direction | GPIO27 | OUTPUT | ```#define M5_DIR 27```|
 | Motor 5 Step | GPIO14 | OUTPUT | ```#define M5_STP 14```|
-| Motor 6 Direction | GPIO33 | OUTPUT | ```#define M6_DIR 33```|
-| Motor 6 Step | GPIO36 | OUTPUT | ```#define M6_STP 36```|
+| Motor 6 Direction | GPIO32 | OUTPUT | ```#define M6_DIR 32```|
+| Motor 6 Step | GPIO33 | OUTPUT | ```#define M6_STP 33```|
 | Motor 1 Limit | GPIO36 | INPUT_PULLUP | ```#define M1_LIMIT 36```|
 | Motor 2 Limit | GPIO39 | INPUT_PULLUP | ```#define M2_LIMIT 39```|
 | Motor 3 Limit | GPIO34 | INPUT_PULLUP | ```#define M3_LIMIT 34```|
