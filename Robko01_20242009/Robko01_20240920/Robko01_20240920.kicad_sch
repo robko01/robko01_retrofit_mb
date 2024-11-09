@@ -5677,6 +5677,12 @@
 		(uuid "2ba3b1d4-53c7-4cb5-80c3-867486740aad")
 	)
 	(junction
+		(at 276.86 336.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ecfb477-b33e-477a-990c-1a3765095953")
+	)
+	(junction
 		(at 688.34 571.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5885,12 +5891,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab2d85b9-4b18-47de-ac7b-cea14a2f8115")
-	)
-	(junction
-		(at 275.59 336.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae886232-aa9d-4b0c-b112-d13ac54757c7")
 	)
 	(junction
 		(at 414.02 354.33)
@@ -6226,7 +6226,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 336.55) (xy 275.59 336.55)
+			(xy 270.51 336.55) (xy 276.86 336.55)
 		)
 		(stroke
 			(width 0)
@@ -6806,7 +6806,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 346.71) (xy 275.59 336.55)
+			(xy 276.86 346.71) (xy 276.86 336.55)
 		)
 		(stroke
 			(width 0)
@@ -9736,16 +9736,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 336.55) (xy 279.4 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac7dbdc6-e2ac-45ed-a0a9-7c5dd8f04be3")
-	)
-	(wire
-		(pts
 			(xy 629.92 482.6) (xy 633.73 482.6)
 		)
 		(stroke
@@ -9976,7 +9966,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 321.31) (xy 279.4 336.55)
+			(xy 276.86 321.31) (xy 276.86 336.55)
 		)
 		(stroke
 			(width 0)
@@ -10056,7 +10046,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 346.71) (xy 275.59 346.71)
+			(xy 270.51 346.71) (xy 276.86 346.71)
 		)
 		(stroke
 			(width 0)
@@ -11166,7 +11156,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 321.31) (xy 279.4 321.31)
+			(xy 281.94 321.31) (xy 276.86 321.31)
 		)
 		(stroke
 			(width 0)
@@ -14829,7 +14819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 			(at 265.43 346.71 0)
 			(effects
 				(font
@@ -18461,7 +18451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 			(at 265.43 336.55 0)
 			(effects
 				(font
