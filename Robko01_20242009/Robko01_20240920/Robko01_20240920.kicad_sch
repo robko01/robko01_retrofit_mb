@@ -5689,6 +5689,12 @@
 		(uuid "2fdd040d-a654-43bd-8f5f-98e47da8fc92")
 	)
 	(junction
+		(at 331.47 565.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3050b9ec-fadb-43d6-82ee-39e65d0d7ef9")
+	)
+	(junction
 		(at 746.76 400.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6203,6 +6209,16 @@
 			(type default)
 		)
 		(uuid "038de47e-1166-4cb6-bdb9-7943a4a88c4c")
+	)
+	(wire
+		(pts
+			(xy 331.47 565.15) (xy 340.36 565.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b327fa-ffbf-439e-b13f-17f4020a5b70")
 	)
 	(wire
 		(pts
@@ -7153,6 +7169,16 @@
 			(type default)
 		)
 		(uuid "2e5961f6-9ae7-4656-b28d-45b167341deb")
+	)
+	(wire
+		(pts
+			(xy 331.47 562.61) (xy 331.47 565.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5b786a-686b-4c8e-a396-8eb5335d79b4")
 	)
 	(wire
 		(pts
@@ -9066,6 +9092,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 562.61) (xy 340.36 562.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a8922f-2e58-40ff-8fda-d09dd6e3cc1a")
+	)
+	(wire
+		(pts
 			(xy 749.3 392.43) (xy 749.3 397.51)
 		)
 		(stroke
@@ -9473,6 +9509,16 @@
 			(type default)
 		)
 		(uuid "a0787485-057f-45b3-8187-93f87de1865c")
+	)
+	(wire
+		(pts
+			(xy 331.47 575.31) (xy 331.47 565.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14fda16-0cd9-4c4a-a30f-2f994ec07152")
 	)
 	(wire
 		(pts
@@ -11625,6 +11671,18 @@
 		(uuid 452e1fa6-6a4b-40f4-9c43-43f0b30e372b)
 	)
 	(rectangle
+		(start 259.715 520.7)
+		(end 418.465 607.695)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7d6ec55e-b86c-4047-9653-644a9c4bd5e8)
+	)
+	(rectangle
 		(start 259.08 299.72)
 		(end 417.83 386.715)
 		(stroke
@@ -11830,6 +11888,16 @@
 			(justify left bottom)
 		)
 		(uuid "8297730b-e061-4ba7-bb4e-64b37afc6ce9")
+	)
+	(text "UTILS"
+		(exclude_from_sim no)
+		(at 283.972 510.286 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "87ddb6e8-3e49-4bfd-89e6-797e8b0b01e7")
 	)
 	(text "Yello / Blue"
 		(exclude_from_sim no)
@@ -13724,6 +13792,71 @@
 			(project "Robko01_20240920"
 				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robko01-rescue:GND-power")
+		(at 331.47 575.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0caaa5c9-0974-420b-8f65-24487ef3f7bd")
+		(property "Reference" "#PWR046"
+			(at 331.47 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.597 579.7042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 331.47 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1d18017-0d22-4f0b-87e8-713501e5ba26")
+		)
+		(instances
+			(project "Robko01_20240920"
+				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -18955,6 +19088,73 @@
 			(project "Robko01_20240920"
 				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robko01-rescue:Conn_01x02_Male-Connector")
+		(at 345.44 565.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b58a03c6-97b8-4097-9c8a-7e26eba48139")
+		(property "Reference" "J20"
+			(at 342.7476 569.6712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Male"
+			(at 342.7476 567.3598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 345.44 565.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 565.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 565.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6839b035-0497-44ee-a880-a5d0e8652d8d")
+		)
+		(pin "2"
+			(uuid "8b7d0623-449b-4d5c-ba43-62304ef78b33")
+		)
+		(instances
+			(project "Robko01_20240920"
+				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
+					(reference "J20")
 					(unit 1)
 				)
 			)
