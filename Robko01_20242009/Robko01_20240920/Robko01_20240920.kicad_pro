@@ -896,11 +896,15 @@
       },
       {
         "netclass": "Signal",
-        "pattern": "GRIPPER"
+        "pattern": "GRIPPER_1"
       },
       {
         "netclass": "Power",
         "pattern": "Net-(J18-Pin_1)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "GRIPPER_2"
       }
     ]
   },

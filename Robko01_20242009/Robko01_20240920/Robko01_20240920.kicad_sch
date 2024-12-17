@@ -6532,7 +6532,7 @@
 	)
 	(wire
 		(pts
-			(xy 787.4 466.09) (xy 798.83 466.09)
+			(xy 787.4 466.09) (xy 793.75 466.09)
 		)
 		(stroke
 			(width 0)
@@ -8162,16 +8162,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 458.47) (xy 334.01 448.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bd378b8-5be4-4c86-a7fd-f081aa8422ca")
-	)
-	(wire
-		(pts
 			(xy 751.84 309.88) (xy 749.3 309.88)
 		)
 		(stroke
@@ -8802,16 +8792,6 @@
 	)
 	(wire
 		(pts
-			(xy 864.87 466.09) (xy 864.87 468.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e94d626-1618-4eac-8826-f200147564d4")
-	)
-	(wire
-		(pts
 			(xy 787.4 445.77) (xy 817.88 445.77)
 		)
 		(stroke
@@ -9149,6 +9129,16 @@
 			(type default)
 		)
 		(uuid "8bdf8e6c-f162-4e05-86b6-6cbd072b648d")
+	)
+	(wire
+		(pts
+			(xy 862.33 466.09) (xy 867.41 466.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c66895e-ff06-45e4-a49d-c85200ea7ad9")
 	)
 	(wire
 		(pts
@@ -10219,16 +10209,6 @@
 			(type default)
 		)
 		(uuid "bf1960d9-720a-41e4-8e4e-5ead84acc4fc")
-	)
-	(wire
-		(pts
-			(xy 862.33 466.09) (xy 864.87 466.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfc82861-08f3-4147-b124-1bc54b4dad02")
 	)
 	(wire
 		(pts
@@ -12292,9 +12272,9 @@
 			)
 		)
 	)
-	(global_label "GRIPPER"
+	(global_label "GRIPPER_1"
 		(shape input)
-		(at 798.83 466.09 0)
+		(at 793.75 466.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12303,7 +12283,7 @@
 		)
 		(uuid "11fa4ec0-2948-45b7-8976-dc8093d81a6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 798.83 466.09 0)
+			(at 793.75 466.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12598,6 +12578,26 @@
 			)
 		)
 	)
+	(global_label "GRIPPER_2"
+		(shape input)
+		(at 334.01 448.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "534fd214-c6ce-43f5-8fa0-616a623e1a14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.01 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIR_3"
 		(shape input)
 		(at 294.64 223.52 180)
@@ -12752,7 +12752,7 @@
 			)
 		)
 	)
-	(global_label "GRIPPER"
+	(global_label "GRIPPER_1"
 		(shape input)
 		(at 334.01 445.77 180)
 		(effects
@@ -12988,6 +12988,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GRIPPER_2"
+		(shape input)
+		(at 867.41 466.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8499bf73-4220-49e5-8611-ab72404684bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 867.41 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14607,71 +14627,6 @@
 			(project "Robko01_20240920"
 				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Robko01-rescue:GND-power")
-		(at 864.87 468.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "243ff03f-a0f2-4e03-9b4a-19411afacab2")
-		(property "Reference" "#PWR038"
-			(at 864.87 474.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 864.997 473.0242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 864.87 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 864.87 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 864.87 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f2f3bd0-3ea6-4274-90a2-aea23adbde00")
-		)
-		(instances
-			(project "Robko01_20240920"
-				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -17530,71 +17485,6 @@
 			(project "Robko01_20240920"
 				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
 					(reference "J31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Robko01-rescue:GND-power")
-		(at 334.01 458.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8210c2fb-6147-4970-a638-819c48eb75a7")
-		(property "Reference" "#PWR045"
-			(at 334.01 464.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 334.137 462.8642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.01 458.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 458.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 334.01 458.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cd34cc7-9613-4820-b64f-31ebb91200d3")
-		)
-		(instances
-			(project "Robko01_20240920"
-				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
