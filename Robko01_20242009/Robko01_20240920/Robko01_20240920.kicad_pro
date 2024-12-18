@@ -905,6 +905,10 @@
       {
         "netclass": "Signal",
         "pattern": "GRIPPER_2"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3.3V"
       }
     ]
   },
