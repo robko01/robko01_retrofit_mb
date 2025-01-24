@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.2,
-          "height": 2.0,
-          "width": 1.905
+          "drill": 0.0,
+          "height": 0.5,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -485,7 +485,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -942,6 +942,22 @@
       {
         "netclass": "Signal",
         "pattern": "MCU_RESET"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(J23-Pin_3)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(J23-Pin_4)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(J23-Pin_7)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(J23-Pin_8)"
       }
     ]
   },
