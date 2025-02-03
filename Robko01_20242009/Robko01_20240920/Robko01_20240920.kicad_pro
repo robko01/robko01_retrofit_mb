@@ -958,6 +958,18 @@
       {
         "netclass": "Signal",
         "pattern": "Net-(J23-Pin_8)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(J24-D-)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(J24-D+)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(J24-VBUS)"
       }
     ]
   },
