@@ -1,0 +1,30 @@
+# Bill of materials
+
+Existing BOM snapshots retained from the original repository; regenerate and review them after design changes.
+
+- [Component BOM](bom.csv): comma-separated export with datasheets.
+- [Supplier BOM](bom-supplier.csv): semicolon-separated purchasing format.
+
+| Reference                  | Value                 | Datasheet                                                    | Footprint                                                                          | Qty | DNP |
+|----------------------------|-----------------------|--------------------------------------------------------------|------------------------------------------------------------------------------------|-----|-----|
+| A1,A2,A3,A4,A5,A6          | Pololu_Breakout_A4988 | https://www.pololu.com/product/2980/pictures                 | Module:Pololu_Breakout-16_15.2x20.3mm                                              | 6   |     |
+| C1,C2,C3,C5,C7,C9,C11,C13  | 100n                  | ~                                                            | Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm                                         | 8   |     |
+| C4,C6,C8,C10,C12,C14       | 100u                  | ~                                                            | Capacitor_THT:CP_Radial_D8.0mm_P3.50mm                                             | 6   |     |
+| D1,D2                      | 1N4007                | http://www.vishay.com/docs/88503/1n4001.pdf                  | Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal                                        | 2   |     |
+| D3,D4                      | LED                   | ~                                                            | LED_THT:LED_D5.0mm                                                                 | 2   |     |
+| F1                         | Fuse                  | ~                                                            | Fuse:Fuseholder_Clip-5x20mm_Bel_FC-203-22_Lateral_P17.80x5.00mm_D1.17mm_Horizontal | 1   |     |
+| J1,J4,J6,J12,J14,J16       | Conn_01x04_Pin        | ~                                                            | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal                       | 6   |     |
+| J2,J3,J5,J8,J13,J15        | Conn_01x02_Pin        | ~                                                            | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical                         | 6   |     |
+| J7,J17,J18,J19,J20,J28,J30 | Conn_01x02_Male       | ~                                                            | -- mixed values --                                                                 | 7   |     |
+| J9,J10,J11                 | Motors                | ~                                                            | Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical                         | 3   |     |
+| J21,J22                    | Conn_01x19_Pin        | ~                                                            | Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical                         | 2   |     |
+| J23,J31                    | Conn_02x05_Odd_Even   | ~                                                            | Connector_IDC:IDC-Header_2x05_P2.54mm_Horizontal                                   | 2   |     |
+| J24                        | USB_A                 | ~                                                            | Connector_USB:USB_A_Molex_67643_Horizontal                                         | 1   |     |
+| J25                        | USB_B                 | ~                                                            | Connector_USB:USB_B_Lumberg_2411_02_Horizontal                                     | 1   |     |
+| J29                        | Conn_01x07_Pin        | ~                                                            | Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal                       | 1   |     |
+| K2                         | G5V-2                 | http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf | Relay_THT:Relay_DPDT_Omron_G5V-2                                                   | 1   |     |
+| R1,R2                      | 2k                    | ~                                                            | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal                     | 2   |     |
+| RN1                        | R_Network04           | http://www.vishay.com/docs/31509/csc.pdf                     | Resistor_THT:R_Array_SIP5                                                          | 1   |     |
+| SW1,SW2,SW3,SW4,SW5,SW7    | SW_DIP_x04            | ~                                                            | Package_DIP:DIP-8_W7.62mm                                                          | 6   |     |
+| U1                         | LM7805_TO220          | https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF   | Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown                                    | 1   |     |
+| U2                         | PC817                 | http://www.soselectronic.cz/a_info/resource/d/pc817.pdf      | Package_DIP:DIP-4_W7.62mm                                                          | 1   |     |

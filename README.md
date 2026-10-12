@@ -1,52 +1,43 @@
-# robko01_retrofit_mb
+# Robko 01 retrofit main board
 
- - **BOM**
+KiCad hardware design for the Robko 01 retrofit, with an ESP32 interface and six stepper-driver positions.
 
-| Reference                  | Value                 | Datasheet                                                    | Footprint                                                                          | Qty | DNP |
-|----------------------------|-----------------------|--------------------------------------------------------------|------------------------------------------------------------------------------------|-----|-----|
-| A1,A2,A3,A4,A5,A6          | Pololu_Breakout_A4988 | https://www.pololu.com/product/2980/pictures                 | Module:Pololu_Breakout-16_15.2x20.3mm                                              | 6   |     |
-| C1,C2,C3,C5,C7,C9,C11,C13  | 100n                  | ~                                                            | Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm                                         | 8   |     |
-| C4,C6,C8,C10,C12,C14       | 100u                  | ~                                                            | Capacitor_THT:CP_Radial_D8.0mm_P3.50mm                                             | 6   |     |
-| D1,D2                      | 1N4007                | http://www.vishay.com/docs/88503/1n4001.pdf                  | Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal                                        | 2   |     |
-| D3,D4                      | LED                   | ~                                                            | LED_THT:LED_D5.0mm                                                                 | 2   |     |
-| F1                         | Fuse                  | ~                                                            | Fuse:Fuseholder_Clip-5x20mm_Bel_FC-203-22_Lateral_P17.80x5.00mm_D1.17mm_Horizontal | 1   |     |
-| J1,J4,J6,J12,J14,J16       | Conn_01x04_Pin        | ~                                                            | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal                       | 6   |     |
-| J2,J3,J5,J8,J13,J15        | Conn_01x02_Pin        | ~                                                            | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical                         | 6   |     |
-| J7,J17,J18,J19,J20,J28,J30 | Conn_01x02_Male       | ~                                                            | -- mixed values --                                                                 | 7   |     |
-| J9,J10,J11                 | Motors                | ~                                                            | Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical                         | 3   |     |
-| J21,J22                    | Conn_01x19_Pin        | ~                                                            | Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical                         | 2   |     |
-| J23,J31                    | Conn_02x05_Odd_Even   | ~                                                            | Connector_IDC:IDC-Header_2x05_P2.54mm_Horizontal                                   | 2   |     |
-| J24                        | USB_A                 | ~                                                            | Connector_USB:USB_A_Molex_67643_Horizontal                                         | 1   |     |
-| J25                        | USB_B                 | ~                                                            | Connector_USB:USB_B_Lumberg_2411_02_Horizontal                                     | 1   |     |
-| J29                        | Conn_01x07_Pin        | ~                                                            | Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal                       | 1   |     |
-| K2                         | G5V-2                 | http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf | Relay_THT:Relay_DPDT_Omron_G5V-2                                                   | 1   |     |
-| R1,R2                      | 2k                    | ~                                                            | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal                     | 2   |     |
-| RN1                        | R_Network04           | http://www.vishay.com/docs/31509/csc.pdf                     | Resistor_THT:R_Array_SIP5                                                          | 1   |     |
-| SW1,SW2,SW3,SW4,SW5,SW7    | SW_DIP_x04            | ~                                                            | Package_DIP:DIP-8_W7.62mm                                                          | 6   |     |
-| U1                         | LM7805_TO220          | https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF   | Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown                                    | 1   |     |
-| U2                         | PC817                 | http://www.soselectronic.cz/a_info/resource/d/pc817.pdf      | Package_DIP:DIP-4_W7.62mm                                                          | 1   |     |
+## Open the design
 
+Open [robko01_retrofit_mb.kicad_pro](hardware/kicad/robko01_retrofit_mb.kicad_pro) in KiCad. The design was saved with KiCad 8; KiCad 9 is installed locally and can render it. The project uses the stable name `robko01_retrofit_mb`; revisions are recorded in Git.
 
+## Repository layout
 
- - **Pinmap**
+| Path | Contents |
+| --- | --- |
+| `hardware/kicad/` | Project, PCB, and schematic sources |
+| `docs/bom/` | Component and supplier BOM snapshots |
+| `docs/pinmap.md` | ESP32 pin mapping and discrepancies to review |
+| `scripts/` | Repeatable local tools |
+| `outputs/` | Generated renders, 3D exports, and manufacturing files; ignored by Git |
 
-| Function | ESP32 | Direction | C Code |
-|----------|:-------------|:------|----|
-| Enable Motors | GPIO2 | OUTPUT | ```#define MX_ENB 2```|
-| Motor 1 Direction | GPIO4 | OUTPUT | ```#define M1_DIR 4```|
-| Motor 1 Step | GPIO0 | OUTPUT | ```#define M1_STP 0```|
-| Motor 2 Direction | GPIO17 | OUTPUT | ```#define M2_DIR 17```|
-| Motor 2 Step | GPIO16 | OUTPUT | ```#define M2_STP 16```|
-| Motor 3 Direction | GPIO25 | OUTPUT | ```#define M3_DIR 12```|
-| Motor 3 Step | GPIO26 | OUTPUT | ```#define M3_STP 13```|
-| Motor 4 Direction | GPIO12 | OUTPUT | ```#define M4_DIR 27```|
-| Motor 4 Step | GPIO13 | OUTPUT | ```#define M4_STP 14```|
-| Motor 5 Direction | GPIO27 | OUTPUT | ```#define M5_DIR 25```|
-| Motor 5 Step | GPIO14 | OUTPUT | ```#define M5_STP 26```|
-| Motor 6 Direction | GPIO32 | OUTPUT | ```#define M6_DIR 32```|
-| Motor 6 Step | GPIO33 | OUTPUT | ```#define M6_STP 33```|
-| Motor 1 Limit | GPIO36 | INPUT | ```#define M1_LIMIT 36```|
-| Motor 2 Limit | GPIO39 | INPUT | ```#define M2_LIMIT 39```|
-| Motor 3 Limit | GPIO34 | INPUT | ```#define M3_LIMIT 34```|
-| Motor 6 Limit | GPIO35 | INPUT | ```#define M6_LIMIT 35```|
-| E-Stop | GPIO15 | INPUT_PULLUP | ```#define E_STOP 35```|
+## Documentation
+
+- [Bill of materials](docs/bom/README.md)
+- [ESP32 pin mapping](docs/pinmap.md)
+- [Repository working conventions](AGENTS.md)
+
+## Render the board
+
+From the repository root in PowerShell:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\render-board.ps1
+```
+
+The command allows this local script to run for that PowerShell process without changing the system execution policy. Requires KiCad 9 or later with its 3D model libraries. The script finds KiCad on PATH or under Program Files. To select an installation:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\render-board.ps1 -KiCadCli 'C:\Program Files\KiCad\9.0\bin\kicad-cli.exe'
+```
+
+The angled and top views are written to `outputs/renders/board-3d.png` and `outputs/renders/board-top.png`. Parts without available models appear as footprints only.
+
+## Working conventions
+
+Keep editable design sources and reviewed documentation in Git. Put fresh BOM exports and manufacturing outputs under `outputs/`; update the tracked BOM snapshots deliberately. KiCad automatic backups, caches, and per-user settings are ignored. Use Git commits for design history instead of adding dated project folders.

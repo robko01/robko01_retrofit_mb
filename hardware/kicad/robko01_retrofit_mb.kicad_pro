@@ -444,7 +444,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Robko01_20240920.kicad_pro",
+    "filename": "robko01_retrofit_mb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -986,14 +986,14 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "./",
-      "vrml": ""
+      "svg": "../../outputs/",
+      "vrml": "../../outputs/3d/robko01_retrofit_mb.wrl"
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "C:\\Users\\User\\Documents\\Git\\robko01\\robko01_retrofit_mb\\Robko01_20240920.csv",
+    "bom_export_filename": "../../outputs/bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

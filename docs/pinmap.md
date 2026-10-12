@@ -1,0 +1,24 @@
+# ESP32 pin mapping
+
+This table is preserved from the original README. The GPIO column and C defines disagree for motors 3?5 and E-Stop. Verify these against the current schematic and firmware before using them.
+
+| Function | ESP32 | Direction | C Code |
+|----------|:-------------|:------|----|
+| Enable Motors | GPIO2 | OUTPUT | ```#define MX_ENB 2```|
+| Motor 1 Direction | GPIO4 | OUTPUT | ```#define M1_DIR 4```|
+| Motor 1 Step | GPIO0 | OUTPUT | ```#define M1_STP 0```|
+| Motor 2 Direction | GPIO17 | OUTPUT | ```#define M2_DIR 17```|
+| Motor 2 Step | GPIO16 | OUTPUT | ```#define M2_STP 16```|
+| Motor 3 Direction | GPIO25 | OUTPUT | ```#define M3_DIR 12```|
+| Motor 3 Step | GPIO26 | OUTPUT | ```#define M3_STP 13```|
+| Motor 4 Direction | GPIO12 | OUTPUT | ```#define M4_DIR 27```|
+| Motor 4 Step | GPIO13 | OUTPUT | ```#define M4_STP 14```|
+| Motor 5 Direction | GPIO27 | OUTPUT | ```#define M5_DIR 25```|
+| Motor 5 Step | GPIO14 | OUTPUT | ```#define M5_STP 26```|
+| Motor 6 Direction | GPIO32 | OUTPUT | ```#define M6_DIR 32```|
+| Motor 6 Step | GPIO33 | OUTPUT | ```#define M6_STP 33```|
+| Motor 1 Limit | GPIO36 | INPUT | ```#define M1_LIMIT 36```|
+| Motor 2 Limit | GPIO39 | INPUT | ```#define M2_LIMIT 39```|
+| Motor 3 Limit | GPIO34 | INPUT | ```#define M3_LIMIT 34```|
+| Motor 6 Limit | GPIO35 | INPUT | ```#define M6_LIMIT 35```|
+| E-Stop | GPIO15 | INPUT_PULLUP | ```#define E_STOP 35```|
