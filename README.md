@@ -38,6 +38,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\render-board.ps1 -
 
 The angled and top views are written to `outputs/renders/board-3d.png` and `outputs/renders/board-top.png`. The script uses an isolated configuration under `outputs/render-config/` to show both SMD and through-hole models while preserving personal KiCad settings. All 68 physical components have models; the 16 solder jumpers appear as PCB pads. See [model sources and approximations](hardware/3dmodels/README.md).
 
+In KiCad's interactive 3D Viewer, enable **SMD Models** in the Appearance panel to show the diodes and surface-mount resistors and capacitors. The `S` shortcut toggles this visibility setting; it is saved in your local KiCad settings, separately from the board's model assignments. See the [KiCad 3D Viewer documentation](https://docs.kicad.org/9.0/en/pcbnew/pcbnew.html#_3d_viewer).
+
 ## Working conventions
 
 Keep editable design sources and reviewed documentation in Git. Put generated exports and manufacturing outputs under `outputs/`. KiCad automatic backups, caches, and per-user settings are ignored. Use Git commits for design history instead of adding dated project folders.
