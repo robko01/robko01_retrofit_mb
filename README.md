@@ -30,13 +30,13 @@ From the repository root in PowerShell:
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\render-board.ps1
 ```
 
-The command allows this local script to run for that PowerShell process without changing the system execution policy. Requires KiCad 9 or later with its 3D model libraries. The script finds KiCad on PATH or under Program Files. To select an installation:
+The command allows this local script to run for that PowerShell process without changing the system execution policy. Requires KiCad 9 or later; component models are included in this repository. The script finds KiCad on PATH or under Program Files. To select an installation:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\render-board.ps1 -KiCadCli 'C:\Program Files\KiCad\9.0\bin\kicad-cli.exe'
 ```
 
-The angled and top views are written to `outputs/renders/board-3d.png` and `outputs/renders/board-top.png`. The script uses an isolated configuration under `outputs/render-config/` to show both SMD and through-hole models while preserving personal KiCad settings. Parts without available models appear as footprints only.
+The angled and top views are written to `outputs/renders/board-3d.png` and `outputs/renders/board-top.png`. The script uses an isolated configuration under `outputs/render-config/` to show both SMD and through-hole models while preserving personal KiCad settings. All 68 physical components have models; the 16 solder jumpers appear as PCB pads. See [model sources and approximations](hardware/3dmodels/README.md).
 
 ## Working conventions
 

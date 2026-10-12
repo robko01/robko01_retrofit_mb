@@ -37,14 +37,8 @@ if ($LASTEXITCODE -ne 0) {
     throw 'This KiCad installation does not support PCB rendering. Use KiCad 9 or later.'
 }
 
-# This KiCad 8 project uses KICAD8_3DMODEL_DIR for its model references.
-$originalModelDir = $env:KICAD8_3DMODEL_DIR
 $originalConfigHome = $env:KICAD_CONFIG_HOME
-$modelDir = Join-Path (Split-Path -Parent (Split-Path -Parent $KiCadCli)) 'share\kicad\3dmodels'
 try {
-    if (-not $originalModelDir -and (Test-Path -LiteralPath $modelDir -PathType Container)) {
-        $env:KICAD8_3DMODEL_DIR = $modelDir
-    }
     # Show both SMD and through-hole models without changing personal settings.
     $versionOutput = & $KiCadCli --version
     if ($LASTEXITCODE -ne 0) { throw 'Could not read the KiCad version.' }
@@ -75,6 +69,5 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Top board render failed.' }
     Write-Output "Board previews saved in $outputDir"
 } finally {
-    $env:KICAD8_3DMODEL_DIR = $originalModelDir
     $env:KICAD_CONFIG_HOME = $originalConfigHome
 }

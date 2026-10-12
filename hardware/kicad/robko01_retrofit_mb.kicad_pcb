@@ -526,7 +526,7 @@
 			(pintype "passive")
 			(uuid "52efd776-bacb-4007-8c6f-e568b3db78a9")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Package_DIP.3dshapes/DIP-8_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -664,7 +664,7 @@
 			(uuid "3c84a44e-92e4-46bb-892c-e27a7e73fcda")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2402,7 +2402,7 @@
 			(pintype "passive")
 			(uuid "be80ece0-d1e2-4124-b8aa-fc90fee4c1c0")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2540,7 +2540,7 @@
 			(uuid "b34e112f-2712-4952-aa14-92375384e30a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3001,18 +3001,23 @@
 			(pintype "input")
 			(uuid "f89041df-57ae-4b2a-845b-fb2739f6e349")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+
+		(model "${KIPRJMOD}/../3dmodels/pololu/a4988-stepper-motor-driver-carrier.step"
+			(offset (xyz -1.27 -19.05 8.5))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
-	)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 12.7 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+		)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "14eb4abe-be38-4719-a147-c909ab3f7b34")
@@ -3268,7 +3273,7 @@
 			(pintype "passive")
 			(uuid "2f84fe86-7f7b-4fd3-ab51-f5f5d59d4f3e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3634,7 +3639,7 @@
 			(pintype "power_out")
 			(uuid "dd4ed147-c9f1-404c-898e-e7c2177c59b7")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3645,7 +3650,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_125x35x50mm_3xFixationM3.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Heatsink.3dshapes/Heatsink_125x35x50mm_3xFixationM3.step"
 			(hide yes)
 			(offset
 				(xyz 0 0 0)
@@ -3938,7 +3943,7 @@
 			(uuid "5652e9bf-8ec3-4845-836b-6489e5787b67")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Diode_SMD.3dshapes/D_SMA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4264,7 +4269,7 @@
 			(pintype "passive")
 			(uuid "8f45f6c7-857f-444c-a76e-5884efc2915e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Package_DIP.3dshapes/DIP-8_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4402,7 +4407,7 @@
 			(uuid "50eb88b5-a2f3-406d-9b39-47834b792674")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4728,7 +4733,7 @@
 			(pintype "passive")
 			(uuid "b87e5f6b-9540-4921-b539-b2b146e5b9be")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Package_DIP.3dshapes/DIP-8_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6466,7 +6471,7 @@
 			(pintype "passive")
 			(uuid "2c2a1ed5-1ce1-482b-8d06-73e1e89dd463")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6891,7 +6896,7 @@
 			(pintype "passive")
 			(uuid "88b588b0-26af-4438-aaf9-785ec6715ae8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G5V-2.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Relay_THT.3dshapes/Relay_DPDT_Omron_G5V-2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8629,7 +8634,7 @@
 			(pintype "passive")
 			(uuid "bce1f473-323b-42e1-b52c-c487261ea40c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10367,7 +10372,7 @@
 			(pintype "passive")
 			(uuid "211b8a40-79d7-4c66-893b-c68f3ecb2fcd")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11057,7 +11062,7 @@
 			(pintype "passive")
 			(uuid "96b39976-398d-4f81-8a92-6dd979523814")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x19_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x19_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11195,7 +11200,7 @@
 			(uuid "fa24175a-cdb6-4642-8799-28d2b9129f85")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11698,7 +11703,7 @@
 			(pintype "passive")
 			(uuid "10a696b5-db7c-4919-874c-984856dd76f0")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Molex_67643_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_USB.3dshapes/USB_A_Molex_67643_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11965,7 +11970,7 @@
 			(pintype "passive")
 			(uuid "e1766fb8-cf9f-4ca9-b23d-9d3442023c7e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12232,7 +12237,7 @@
 			(pintype "passive")
 			(uuid "95bb41a3-95b9-4e79-aa7c-c2ae325634ee")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12693,18 +12698,23 @@
 			(pintype "input")
 			(uuid "9fcefc50-0e86-4206-a1a0-ac1bc411fc71")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+
+		(model "${KIPRJMOD}/../3dmodels/pololu/a4988-stepper-motor-driver-carrier.step"
+			(offset (xyz -1.27 -19.05 8.5))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
-	)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 12.7 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+		)
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "5aff82b9-78a5-41c0-9e99-2c84d4a8d723")
@@ -13019,7 +13029,7 @@
 			(pintype "passive")
 			(uuid "799e88ea-7c5e-4621-93f6-f2a8cead8c98")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Package_DIP.3dshapes/DIP-8_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13431,7 +13441,7 @@
 			(pintype "passive")
 			(uuid "b304965d-7bd9-418b-837b-d6007f280c3f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_SPST_Angled_PTS645Vx39-2LFS.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Button_Switch_THT.3dshapes/SW_Tactile_SPST_Angled_PTS645Vx39-2LFS.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13757,7 +13767,7 @@
 			(pintype "passive")
 			(uuid "4bd8cbc5-d827-496a-99a6-a74eb7904e0a")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Package_DIP.3dshapes/DIP-8_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14145,7 +14155,7 @@
 			(pintype "passive+no_connect")
 			(uuid "d695ebce-8781-4c08-ace1-137922b62dd2")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x13_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x13_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14553,7 +14563,7 @@
 			(pintype "passive")
 			(uuid "a97a0399-279d-42d6-96e2-6428ba8ca182")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14871,7 +14881,7 @@
 			(pintype "passive")
 			(uuid "ff1985a3-a5b3-4610-aed2-c1b63e35b90d")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MC.3dshapes/PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_Phoenix_MC.3dshapes/PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15288,18 +15298,13 @@
 			(pintype "passive")
 			(uuid "45c61e48-2d52-4216-97f0-09c53445c7f9")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Bel_FC-203-22_Lateral_P17.80x5.00mm_D1.17mm_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+
+		(model "${KIPRJMOD}/../3dmodels/custom/Fuse_5x20_Bel_FC203_approx.wrl"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
-	)
+		)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "76b8ef0b-cea4-4adb-a16a-269999e1cccc")
@@ -15555,7 +15560,7 @@
 			(pintype "passive")
 			(uuid "b10952ce-4aa8-4887-bc3e-e46dd3d306c8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16374,7 +16379,7 @@
 			(pintype "passive")
 			(uuid "43ba312f-16e1-4c83-8b9f-4af4514be406")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16641,7 +16646,7 @@
 			(pintype "passive")
 			(uuid "62d5398d-0137-40ad-9c24-1fc785c227b8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17102,29 +17107,24 @@
 			(pintype "input")
 			(uuid "501514e9-3fc4-4943-bbbb-46ca501dd164")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+
+
+		(model "${KIPRJMOD}/../3dmodels/pololu/a4988-stepper-motor-driver-carrier.step"
+			(offset (xyz -1.27 -19.05 8.5))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
-		(model " ${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
-	)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 12.7 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+		)
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "8610fb3d-8344-4d5c-a183-e20be0142917")
@@ -17405,7 +17405,7 @@
 			(uuid "b4e134f7-97c3-41aa-927e-afa096183b01")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Diode_SMD.3dshapes/D_SMA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17672,7 +17672,7 @@
 			(pintype "passive")
 			(uuid "ad7598bd-b0a5-49ea-a6ea-32846b14b8e3")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18491,7 +18491,7 @@
 			(pintype "passive")
 			(uuid "feea6f82-5ee1-4d38-85e9-605be5f65dd3")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19310,7 +19310,7 @@
 			(pintype "passive")
 			(uuid "0fb28674-9085-4255-b6bc-61fdc902b5bf")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19577,7 +19577,7 @@
 			(pintype "passive")
 			(uuid "e1b75f6f-c9a7-4cc8-93ad-d7fa65116c8f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20133,7 +20133,7 @@
 			(pintype "passive")
 			(uuid "631f06c9-d355-4dae-9196-37410f48f332")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20594,18 +20594,23 @@
 			(pintype "input")
 			(uuid "f5aa2dbb-3c3f-4198-ae66-86427df068a0")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+
+		(model "${KIPRJMOD}/../3dmodels/pololu/a4988-stepper-motor-driver-carrier.step"
+			(offset (xyz -1.27 -19.05 8.5))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
-	)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 12.7 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+		)
 	(footprint "Connector_IDC:IDC-Header_2x05_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "96cdb12a-7efb-4d7b-860c-7d2cc870a67d")
@@ -21150,7 +21155,7 @@
 			(pintype "passive")
 			(uuid "06043c1e-8c8d-49fd-b480-525db239fad7")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21611,18 +21616,23 @@
 			(pintype "input")
 			(uuid "1af31c75-4048-4ce0-8e94-e967f8701c7a")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+
+		(model "${KIPRJMOD}/../3dmodels/pololu/a4988-stepper-motor-driver-carrier.step"
+			(offset (xyz -1.27 -19.05 8.5))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
-	)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 12.7 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+		)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9e4beb10-32d8-472d-8156-8b3ed56dbd3a")
@@ -22430,7 +22440,7 @@
 			(pintype "passive")
 			(uuid "5e72ba32-5bdd-4fc3-8961-ce95dfc74943")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22568,7 +22578,7 @@
 			(uuid "b0e33dd8-19d5-4fe7-b1b1-e8d3d46462c0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23130,7 +23140,7 @@
 			(pintype "passive")
 			(uuid "26b9b02b-29e5-4ba0-b13b-743238f9fc4d")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Package_DIP.3dshapes/DIP-8_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23879,7 +23889,7 @@
 			(pintype "passive+no_connect")
 			(uuid "81894e10-39b1-4bc8-a8c7-58371d5cdf8c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x19_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x19_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25311,7 +25321,7 @@
 			(pintype "passive")
 			(uuid "de5f7395-bb36-4444-9873-604f67261820")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25597,7 +25607,7 @@
 			(pintype "passive")
 			(uuid "a21ed3e3-e6c3-4d63-a4dc-965d2fc922bc")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-4_W7.62mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Package_DIP.3dshapes/DIP-4_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25735,7 +25745,7 @@
 			(uuid "f25ad9eb-6334-4337-8acd-d30fe614811a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26123,7 +26133,7 @@
 			(pintype "passive")
 			(uuid "c5cbe48f-3c7e-4856-8b0e-fec0e42cdc19")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x13_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x13_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26261,7 +26271,7 @@
 			(uuid "3ac4ba0e-19fc-43bb-b5dd-89bd84d7894c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27081,7 +27091,7 @@
 			(pintype "passive")
 			(uuid "a35e45c4-e147-4b80-9ece-bd02039a1782")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27219,7 +27229,7 @@
 			(uuid "d948f724-3338-41b4-8800-ee2100324aa8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27357,7 +27367,7 @@
 			(uuid "9f4abbec-958d-48a1-adcf-f7f4c62f7bf1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27745,7 +27755,7 @@
 			(pintype "passive")
 			(uuid "3722dc72-fcb0-4545-8a7b-b05500dad244")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x13_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x13_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28625,7 +28635,7 @@
 			(pintype "passive")
 			(uuid "1cd899b6-fe00-4dbc-bc2b-bb06f8672406")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28812,7 +28822,7 @@
 			(uuid "8c68d813-25c4-4100-ac33-2b58ac639c5c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30550,7 +30560,7 @@
 			(pintype "passive")
 			(uuid "978bf661-b208-46d1-bbee-40f227fc852a")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32288,7 +32298,7 @@
 			(pintype "passive")
 			(uuid "22824bd6-2f28-44a4-805c-8274b8e279d9")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33107,7 +33117,7 @@
 			(pintype "passive")
 			(uuid "067cabeb-ae8d-49b0-9e10-be0b440e430f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33294,7 +33304,7 @@
 			(uuid "8232dcec-3d60-4d86-8140-42d0527e4a55")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33755,18 +33765,23 @@
 			(pintype "input")
 			(uuid "e676d4e3-3f7b-43a6-9182-ca71898bc70d")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+
+		(model "${KIPRJMOD}/../3dmodels/pololu/a4988-stepper-motor-driver-carrier.step"
+			(offset (xyz -1.27 -19.05 8.5))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
 		)
-	)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+			(model "${KIPRJMOD}/../3dmodels/kicad/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset (xyz 12.7 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+		)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "fbcba343-9dd1-4e2e-abc6-b8c54cda16f7")
@@ -33893,7 +33908,7 @@
 			(uuid "93d9fcdc-4c19-4f45-a8e2-cdbc4f4438f2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -56846,7 +56861,7 @@
 			(uuid "d149c710-c79b-4b81-8f6a-a19bfab2e7f1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -56985,7 +57000,7 @@
 			(uuid "5bb32c3c-865e-47b7-a39a-d140fa50397c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57124,7 +57139,7 @@
 			(uuid "6b749601-e34a-4bca-877a-e3dc32cac49b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57263,7 +57278,7 @@
 			(uuid "8f1d199e-9922-4c16-b7be-2b028a79d9b1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57402,7 +57417,7 @@
 			(uuid "a1f97684-20a7-4f65-9104-9cdd91dea379")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+		(model "${KIPRJMOD}/../3dmodels/kicad/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)

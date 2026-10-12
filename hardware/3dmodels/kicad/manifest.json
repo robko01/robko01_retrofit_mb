@@ -1,0 +1,107 @@
+{
+  "Package_DIP.3dshapes/DIP-8_W7.62mm.step": {
+    "sha256": "4a377a56a8d9e9c0b86c095ef9ecc1869ac19e7f5069a3247b294250bf4f235d",
+    "bytes": 277577,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Capacitor_SMD.3dshapes/C_0805_2012Metric.step": {
+    "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+    "bytes": 43618,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.step": {
+    "sha256": "abedfe603cd28231e16fb158d7b3f8875be74514f602e356364f48f073d0ef8e",
+    "bytes": 171217,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step": {
+    "sha256": "ea08834e672b1f96115f4d51e8db44b9d653dd2798afb956a0277425663d5832",
+    "bytes": 170058,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step": {
+    "sha256": "ea4d0799007ebdd3945072bf255d673d2fe87eb05fda85fd8d7993ad9397da41",
+    "bytes": 75616,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step": {
+    "sha256": "95705144b7aa382f3549bbf03ddf7ad4d6b497aadebf9fcb19cf388a587dfe02",
+    "bytes": 134115,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Heatsink.3dshapes/Heatsink_125x35x50mm_3xFixationM3.step": {
+    "sha256": "b2012637e0f7d9184043c2545fbea5fa328bd8685fed7c2b2f113a528885ddf3",
+    "bytes": 110115,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Diode_SMD.3dshapes/D_SMA.step": {
+    "sha256": "1cfddd4e3b1bf22b8fc6ee3258c2aade882ed7b85b528e23b9db42437775a1db",
+    "bytes": 70794,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Resistor_SMD.3dshapes/R_0805_2012Metric.step": {
+    "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+    "bytes": 40592,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Relay_THT.3dshapes/Relay_DPDT_Omron_G5V-2.step": {
+    "sha256": "134be1996912049fe5e4f61b898e6b268801877f6be09db8538128ce7331b573",
+    "bytes": 95627,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x19_P2.54mm_Vertical.step": {
+    "sha256": "0af41344242feb15b748964c82325c9162056021f27df6085bed1b6faf1507b1",
+    "bytes": 391025,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Connector_USB.3dshapes/USB_A_Molex_67643_Horizontal.step": {
+    "sha256": "d6a1e21b2a1b509fd4f36058bf01036c7a296c391e19486566ce10fe78907800",
+    "bytes": 1260760,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Button_Switch_THT.3dshapes/SW_Tactile_SPST_Angled_PTS645Vx39-2LFS.step": {
+    "sha256": "44eb8cd5c2f46b43216af844e1064f65492aa205aa4e8c79f95f7bf4ab0306ef",
+    "bytes": 212922,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x13_P2.54mm_Vertical.step": {
+    "sha256": "91c5b9c94b34e22a54c6b520ffcb461f0e5e8df25484b75c88d67afdb80eaf89",
+    "bytes": 464266,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step": {
+    "sha256": "9504778074e79ac1b4abfc34cd2815dc5c108995e50d5d7c6a6e3f00620b7f9a",
+    "bytes": 94129,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Connector_Phoenix_MC.3dshapes/PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal.step": {
+    "sha256": "67ad71e08d8e34cfecc7f397176f1873e166ff70de6efaaf8756ea7862f59a86",
+    "bytes": 114924,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.step": {
+    "sha256": "4190d1914c9ca37b328734fc1d0146ec2c8727f98ff5522fbb396004d7eb5dee",
+    "bytes": 168058,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Horizontal.step": {
+    "sha256": "63d954c1d32911a1a27e1d037e55add8ca2e24d361d048e67a26d736c5cd4199",
+    "bytes": 377479,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Horizontal.step": {
+    "sha256": "08b74d9531fa6ea07b99d9fe0a4109a51291eea159d2c07fee30dd697a463d86",
+    "bytes": 249518,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Package_DIP.3dshapes/DIP-4_W7.62mm.step": {
+    "sha256": "39490b2c17b5f36ae3fdd5fdd2952f6879a060ff6cbc6d0241e3d6262fd0f215",
+    "bytes": 161710,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "LED_SMD.3dshapes/LED_0805_2012Metric.step": {
+    "sha256": "0aa8b791804f5d72a2fc7d1bf231dd9959207d83df8ad801176fbc459f575b98",
+    "bytes": 78220,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  }
+}
