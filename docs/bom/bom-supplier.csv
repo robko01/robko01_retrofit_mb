@@ -2,7 +2,7 @@
 1;"J13,J8,J3,J15,J2,J5";"PinHeader_1x02_P2.54mm_Vertical";6;"Conn_01x02_Pin";;;
 2;"J17,J28,J7";"PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal";3;"Conn_01x02_Male";;;
 3;"SW2,SW1,SW5,SW7,SW3,SW4";"DIP-8_W7.62mm";6;"SW_DIP_x04";;;
-4;"C9,C13,C11,C7,C2,C3,C5,C1";"C_Disc_D7.0mm_W2.5mm_P5.00mm";8;"100n";;;
+4;"C9,C13,C11,C7,C2,C3,C5,C1";"C_0805_2012Metric";8;"100n";;;
 5;"C4,C10,C12,C6,C14,C8";"CP_Radial_D8.0mm_P3.50mm";6;"100u";;;
 6;"A1,A4,A2,A6,A5,A3";"Pololu_Breakout-16_15.2x20.3mm";6;"Pololu_Breakout_A4988";;;
 7;"U1";"TO-220F-3_Horizontal_TabDown";1;"LM7805_TO220";;;
