@@ -16876,7 +16876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 731.2152 307.34 0)
 			(effects
 				(font
@@ -17727,7 +17727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 732.4852 614.68 0)
 			(effects
 				(font
@@ -18401,7 +18401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 731.2152 389.89 0)
 			(effects
 				(font
@@ -21315,7 +21315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 731.2152 464.82 0)
 			(effects
 				(font
@@ -22705,7 +22705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 732.4852 539.75 0)
 			(effects
 				(font
@@ -25175,7 +25175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 731.2152 232.41 0)
 			(effects
 				(font

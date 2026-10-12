@@ -17,6 +17,10 @@ The carrier model is downloaded from [Pololu's official resources](https://www.p
 
 `custom/Fuse_5x20_Bel_FC203_approx.wrl` shows a 5x20 mm cartridge and two open spring clips aligned to the footprint's 17.8 x 5.0 mm pin arrangement. It is an original visual approximation, not manufacturer CAD. The clips, glass body, and end caps are modeled for board previews; use the component datasheet for clearance decisions. Run `python hardware/3dmodels/custom/build-fuse-model.py` from the repository root to regenerate it. The generator and model are released under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 
+## SMD electrolytic capacitors
+
+C4, C6, C8, C10, C12, and C14 retain their 100 µF values and positive/ground connections, using `Capacitor_SMD:CP_Elec_8x10.5` footprints with the corresponding KiCad STEP model. The 8 x 10.5 mm can size preserves the previous 8 mm diameter. Voltage ratings and manufacturer part numbers remain unspecified in the design; select capacitors with the required voltage rating and matching land pattern before assembly. The PCB positions allow clearance to both the driver-module and nearby header courtyards.
+
 ## USB-B connector J25
 
 `USB_B_OST_USB-B1HSxx_Horizontal.step` is a downloaded model from [KiCad contribution !635](https://gitlab.com/kicad/libraries/kicad-packages3D/-/merge_requests/635), submitted by `blueskindesign`. The contributor describes it as derived from Molex's 0670688001 CAD model and exported with FreeCAD and KiCad StepUp. The contribution was closed without merging; this file is not part of the installed KiCad library.

@@ -9,11 +9,6 @@
     "bytes": 43618,
     "source": "KiCad 9.0 installed kicad-packages3D library"
   },
-  "Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.step": {
-    "sha256": "abedfe603cd28231e16fb158d7b3f8875be74514f602e356364f48f073d0ef8e",
-    "bytes": 171217,
-    "source": "KiCad 9.0 installed kicad-packages3D library"
-  },
   "Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step": {
     "sha256": "ea08834e672b1f96115f4d51e8db44b9d653dd2798afb956a0277425663d5832",
     "bytes": 170058,
@@ -102,6 +97,11 @@
   "LED_SMD.3dshapes/LED_0805_2012Metric.step": {
     "sha256": "0aa8b791804f5d72a2fc7d1bf231dd9959207d83df8ad801176fbc459f575b98",
     "bytes": 78220,
+    "source": "KiCad 9.0 installed kicad-packages3D library"
+  },
+  "Capacitor_SMD.3dshapes/CP_Elec_8x10.5.step": {
+    "sha256": "ae35c4f1043bc64d44be9822563a47867ce2b6bed1663a1144d81c9b58368562",
+    "bytes": 82412,
     "source": "KiCad 9.0 installed kicad-packages3D library"
   }
 }
