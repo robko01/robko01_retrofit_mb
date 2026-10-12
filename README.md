@@ -11,6 +11,7 @@ Open [robko01_retrofit_mb.kicad_pro](hardware/kicad/robko01_retrofit_mb.kicad_pr
 | Path | Contents |
 | --- | --- |
 | `hardware/kicad/` | Project, PCB, and schematic sources |
+| `hardware/3dmodels/` | Board-local component models and their provenance |
 | `docs/bom/` | Component and supplier BOM snapshots |
 | `docs/pinmap.md` | ESP32 pin mapping and discrepancies to review |
 | `scripts/` | Repeatable local tools |
@@ -20,6 +21,7 @@ Open [robko01_retrofit_mb.kicad_pro](hardware/kicad/robko01_retrofit_mb.kicad_pr
 
 - [Bill of materials](docs/bom/README.md)
 - [ESP32 pin mapping](docs/pinmap.md)
+- [Board-local 3D models](hardware/3dmodels/README.md)
 - [Repository working conventions](AGENTS.md)
 
 ## Render the board

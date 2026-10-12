@@ -1,0 +1,3 @@
+# Preserve downloaded CAD assets without line-ending conversion or text diffs.
+*.step binary
+*.stp binary
