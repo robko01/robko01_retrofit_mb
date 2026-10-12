@@ -20197,7 +20197,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED 3mm Green"
+		(property "Value" "LED 0805 Green"
 			(at 289.56 348.2974 90)
 			(effects
 				(font
@@ -20206,7 +20206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 285.75 345.44 0)
 			(effects
 				(font
@@ -23258,7 +23258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED 3mm Red"
+		(property "Value" "LED 0805 Red"
 			(at 300.99 345.1224 90)
 			(effects
 				(font
@@ -23267,7 +23267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 298.45 345.44 0)
 			(effects
 				(font
