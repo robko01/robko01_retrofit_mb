@@ -3324,404 +3324,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Network05"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN"
-				(at -7.62 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Network05"
-				(at 7.62 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_THT:R_Array_SIP6"
-				(at 9.525 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "5 resistor network, star topology, bussed resistors, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network star-topology"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R?Array?SIP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Network05_0_1"
-				(rectangle
-					(start -6.35 -3.175)
-					(end 6.35 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -5.842 1.524)
-					(end -4.318 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 2.286)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.302 1.524)
-					(end -1.778 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 2.286)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.762 1.524)
-					(end 0.762 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 1.524) (xy -5.08 2.286) (xy -2.54 2.286) (xy -2.54 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.524) (xy -2.54 2.286) (xy 0 2.286) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 0 2.286) (xy 2.54 2.286) (xy 2.54 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.524) (xy 2.54 2.286) (xy 5.08 2.286) (xy 5.08 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.286)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.778 1.524)
-					(end 3.302 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.286)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.318 1.524)
-					(end 5.842 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Network05_1_1"
-				(pin passive line
-					(at -5.08 5.08 270)
-					(length 2.54)
-					(name "common"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 90)
-					(length 1.27)
-					(name "R1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 1.27)
-					(name "R2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "R3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 1.27)
-					(name "R4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 90)
-					(length 1.27)
-					(name "R5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
+
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -7401,6 +7004,131 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_Small_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	)
 	(junction
 		(at 673.1 397.51)
@@ -16776,82 +16504,345 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Network05")
-		(at 508 330.2 0)
+		(lib_id "Device:R_Small")
+		(at 492.76 330.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "095d9c78-70f0-490e-aca6-f85fd533573e")
-		(property "Reference" "RN1"
-			(at 515.62 329.1839 0)
+		(uuid "8f777c2f-23df-484c-b79c-776efadb6d66")
+		(property "Reference" "R3"
+			(at 494.28 328.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "R_Network05"
-			(at 515.62 331.7239 0)
+		(property "Value" "10k"
+			(at 494.28 331.47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP6"
-			(at 517.525 330.2 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 492.76 330.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 508 330.2 0)
+		(property "Datasheet" "~"
+			(at 492.76 330.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "5 resistor network, star topology, bussed resistors, small symbol"
-			(at 508 330.2 0)
+		(property "Description" ""
+			(at 492.76 330.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "e2fc0b45-3e67-443d-889d-e0c4686ee8a2")
-		)
-		(pin "3"
-			(uuid "57420ea7-cf25-4f4d-8b96-f867bbf50f5f")
-		)
-		(pin "4"
-			(uuid "e127005a-7e0a-47eb-9019-37fada6cc34f")
+			(uuid "e6cbd226-1457-499f-9318-9ab2647af952")
 		)
 		(pin "1"
-			(uuid "3cddc6c3-9ecd-41c4-a2b0-a21d826256ee")
-		)
-		(pin "5"
-			(uuid "e6dc5a00-aad4-44a7-8aa1-84bc30637ead")
-		)
-		(pin "6"
-			(uuid "db434b4e-62da-4958-b5d7-dfcbcdac8a56")
+			(uuid "7999013e-9641-4fed-aa65-bcd43715cefa")
 		)
 		(instances
-			(project ""
+			(project "robko01_retrofit_mb"
 				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
-					(reference "RN1")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 500.38 330.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "207e8cf8-a319-4cb0-85b4-84d59b93baf6")
+		(property "Reference" "R4"
+			(at 501.90 328.93 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 501.90 331.47 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 500.38 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 500.38 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 500.38 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5d7ec83-1ed6-4b1e-bf39-f209826ae400")
+		)
+		(pin "1"
+			(uuid "330e9bf6-98f5-4f5f-86bd-99ca0bcc1030")
+		)
+		(instances
+			(project "robko01_retrofit_mb"
+				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 508.0 330.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "502de280-cbd5-4b0c-932d-bfd269456d49")
+		(property "Reference" "R5"
+			(at 509.52 328.93 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 509.52 331.47 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 508.0 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 508.0 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 508.0 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "855702a7-4e8d-4485-8847-e9ff9fda5e35")
+		)
+		(pin "1"
+			(uuid "755d3631-ca5a-4e58-82c8-92dc319dbefe")
+		)
+		(instances
+			(project "robko01_retrofit_mb"
+				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 515.62 330.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48c43414-1264-43b8-b5bb-9a419baa3be1")
+		(property "Reference" "R6"
+			(at 517.14 328.93 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 517.14 331.47 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 515.62 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 515.62 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 515.62 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59b30d74-1f82-45b7-a9f5-3ae8f5409329")
+		)
+		(pin "1"
+			(uuid "ef03c56e-66ea-4b7b-a29c-e661888b2d44")
+		)
+		(instances
+			(project "robko01_retrofit_mb"
+				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 523.24 330.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bb23cae-49c9-47f6-b4aa-64d3ed443065")
+		(property "Reference" "R7"
+			(at 524.76 328.93 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 524.76 331.47 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 523.24 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 523.24 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 523.24 330.2 0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03a9a463-d488-42b2-b450-c0c7d05bff67")
+		)
+		(pin "1"
+			(uuid "ff142a34-0d11-409d-ba78-47518e7ed1e7")
+		)
+		(instances
+			(project "robko01_retrofit_mb"
+				(path "/4cd8ddc7-060a-46ec-960d-c1cd148125cc"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -21141,7 +21132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 290.322 328.93 90)
 			(effects
 				(font
@@ -24050,7 +24041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 488.442 455.93 90)
 			(effects
 				(font
@@ -25371,4 +25362,23 @@
 			(page "1")
 		)
 	)
+	(wire (pts (xy 492.76 325.12) (xy 492.76 327.66)) (stroke (width 0) (type default)) (uuid "bd761b77-8c08-4519-aa0e-289b89a6e1fd"))
+	(wire (pts (xy 492.76 332.74) (xy 502.92 335.28)) (stroke (width 0) (type default)) (uuid "9a347f70-2a88-4118-99c6-a842cc157c9e"))
+	(wire (pts (xy 500.38 325.12) (xy 500.38 327.66)) (stroke (width 0) (type default)) (uuid "d4ce4a8e-bd3b-4c18-83fa-d7c403fc0575"))
+	(wire (pts (xy 500.38 332.74) (xy 505.46 335.28)) (stroke (width 0) (type default)) (uuid "e2d2b43f-e8a6-48f5-b740-8fcac583fc88"))
+	(wire (pts (xy 508.0 325.12) (xy 508.0 327.66)) (stroke (width 0) (type default)) (uuid "9abdcdc5-b9cf-4090-ab07-322e5122da21"))
+	(wire (pts (xy 508.0 332.74) (xy 508.0 335.28)) (stroke (width 0) (type default)) (uuid "a7688b72-138c-4fce-bcc2-78602a6ef157"))
+	(wire (pts (xy 515.62 325.12) (xy 515.62 327.66)) (stroke (width 0) (type default)) (uuid "84bcd823-12a5-4023-87f5-378a2c92cd79"))
+	(wire (pts (xy 515.62 332.74) (xy 510.54 335.28)) (stroke (width 0) (type default)) (uuid "376f83fb-0777-4778-ac6c-4bd9f4ad4ffd"))
+	(wire (pts (xy 523.24 325.12) (xy 523.24 327.66)) (stroke (width 0) (type default)) (uuid "1dea3116-b7b4-4988-a03a-1961a665977d"))
+	(wire (pts (xy 523.24 332.74) (xy 513.08 335.28)) (stroke (width 0) (type default)) (uuid "f23cf62d-c55d-4ef1-b31f-b8f439f7b866"))
+	(wire (pts (xy 492.76 325.12) (xy 500.38 325.12)) (stroke (width 0) (type default)) (uuid "ea6582d2-e505-44ef-b5fd-7a19fcd13ca3"))
+	(wire (pts (xy 500.38 325.12) (xy 502.92 325.12)) (stroke (width 0) (type default)) (uuid "a75ae3b9-782c-486d-9ab3-0070283863cb"))
+	(wire (pts (xy 502.92 325.12) (xy 508.0 325.12)) (stroke (width 0) (type default)) (uuid "2d1e4fc6-233b-4ea3-bfb8-aa99fb37af85"))
+	(wire (pts (xy 508.0 325.12) (xy 515.62 325.12)) (stroke (width 0) (type default)) (uuid "30afd33c-c9b1-4523-a32d-0c4c3d5f6cf3"))
+	(wire (pts (xy 515.62 325.12) (xy 523.24 325.12)) (stroke (width 0) (type default)) (uuid "1e1ab9c0-ccbb-47eb-a91a-d32c1d93b099"))
+	(junction (at 500.38 325.12) (diameter 0) (color 0 0 0 0) (uuid "8227c9c5-e7c0-4e36-84bf-99636cd490c6"))
+	(junction (at 502.92 325.12) (diameter 0) (color 0 0 0 0) (uuid "c0720873-672c-4346-9415-c1b32e4652ad"))
+	(junction (at 508.0 325.12) (diameter 0) (color 0 0 0 0) (uuid "a982ac34-d56e-419b-8931-6e1322cd89b3"))
+	(junction (at 515.62 325.12) (diameter 0) (color 0 0 0 0) (uuid "98705674-a2f4-4111-80e7-819e4bc24292"))
 )
