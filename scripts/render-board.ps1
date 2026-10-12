@@ -39,11 +39,35 @@ if ($LASTEXITCODE -ne 0) {
 
 # This KiCad 8 project uses KICAD8_3DMODEL_DIR for its model references.
 $originalModelDir = $env:KICAD8_3DMODEL_DIR
+$originalConfigHome = $env:KICAD_CONFIG_HOME
 $modelDir = Join-Path (Split-Path -Parent (Split-Path -Parent $KiCadCli)) 'share\kicad\3dmodels'
 try {
     if (-not $originalModelDir -and (Test-Path -LiteralPath $modelDir -PathType Container)) {
         $env:KICAD8_3DMODEL_DIR = $modelDir
     }
+    # Show both SMD and through-hole models without changing personal settings.
+    $versionOutput = & $KiCadCli --version
+    if ($LASTEXITCODE -ne 0) { throw 'Could not read the KiCad version.' }
+    $configVersion = [regex]::Match(($versionOutput -join ''), '\d+\.\d+').Value
+    if (-not $configVersion) { throw 'Could not identify the KiCad configuration version.' }
+    $configSourceRoot = if ($originalConfigHome) { $originalConfigHome } else { Join-Path $env:APPDATA 'kicad' }
+    $viewerSource = Join-Path (Join-Path $configSourceRoot $configVersion) '3d_viewer.json'
+    $viewerSettings = if (Test-Path -LiteralPath $viewerSource) {
+        Get-Content -LiteralPath $viewerSource -Raw | ConvertFrom-Json
+    } else {
+        [pscustomobject]@{}
+    }
+    if (-not $viewerSettings.render) {
+        $viewerSettings | Add-Member -NotePropertyName render -NotePropertyValue ([pscustomobject]@{})
+    }
+    foreach ($settingName in @('show_footprints_insert', 'show_footprints_normal')) {
+        $viewerSettings.render | Add-Member -NotePropertyName $settingName -NotePropertyValue $true -Force
+    }
+    $renderConfigHome = Join-Path $repoRoot 'outputs\render-config'
+    $renderConfigDir = Join-Path $renderConfigHome $configVersion
+    New-Item -ItemType Directory -Path $renderConfigDir -Force | Out-Null
+    $viewerSettings | ConvertTo-Json -Depth 30 | Set-Content -LiteralPath (Join-Path $renderConfigDir '3d_viewer.json') -Encoding UTF8
+    $env:KICAD_CONFIG_HOME = $renderConfigHome
     New-Item -ItemType Directory -Path $outputDir -Force | Out-Null
     & $KiCadCli pcb render --output (Join-Path $outputDir 'board-3d.png') --width 2000 --height 1500 --quality high --background opaque --rotate '325,0,25' $boardPath
     if ($LASTEXITCODE -ne 0) { throw 'Angled board render failed.' }
@@ -52,4 +76,5 @@ try {
     Write-Output "Board previews saved in $outputDir"
 } finally {
     $env:KICAD8_3DMODEL_DIR = $originalModelDir
+    $env:KICAD_CONFIG_HOME = $originalConfigHome
 }

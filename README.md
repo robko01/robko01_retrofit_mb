@@ -12,14 +12,12 @@ Open [robko01_retrofit_mb.kicad_pro](hardware/kicad/robko01_retrofit_mb.kicad_pr
 | --- | --- |
 | `hardware/kicad/` | Project, PCB, and schematic sources |
 | `hardware/3dmodels/` | Board-local component models and their provenance |
-| `docs/bom/` | Component and supplier BOM snapshots |
 | `docs/pinmap.md` | ESP32 pin mapping and discrepancies to review |
 | `scripts/` | Repeatable local tools |
 | `outputs/` | Generated renders, 3D exports, and manufacturing files; ignored by Git |
 
 ## Documentation
 
-- [Bill of materials](docs/bom/README.md)
 - [ESP32 pin mapping](docs/pinmap.md)
 - [Board-local 3D models](hardware/3dmodels/README.md)
 - [Repository working conventions](AGENTS.md)
@@ -38,8 +36,8 @@ The command allows this local script to run for that PowerShell process without 
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\render-board.ps1 -KiCadCli 'C:\Program Files\KiCad\9.0\bin\kicad-cli.exe'
 ```
 
-The angled and top views are written to `outputs/renders/board-3d.png` and `outputs/renders/board-top.png`. Parts without available models appear as footprints only.
+The angled and top views are written to `outputs/renders/board-3d.png` and `outputs/renders/board-top.png`. The script uses an isolated configuration under `outputs/render-config/` to show both SMD and through-hole models while preserving personal KiCad settings. Parts without available models appear as footprints only.
 
 ## Working conventions
 
-Keep editable design sources and reviewed documentation in Git. Put fresh BOM exports and manufacturing outputs under `outputs/`; update the tracked BOM snapshots deliberately. KiCad automatic backups, caches, and per-user settings are ignored. Use Git commits for design history instead of adding dated project folders.
+Keep editable design sources and reviewed documentation in Git. Put generated exports and manufacturing outputs under `outputs/`. KiCad automatic backups, caches, and per-user settings are ignored. Use Git commits for design history instead of adding dated project folders.
